@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+.Geek-DiligentBees-Footer {
+  color: white;
+  background-image: url(imgs/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  width: 100vw;
+  height: 45vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Geek-DiligentBees-Footer ul,
+.Geek-DiligentBees-Footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Geek-DiligentBees-Footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+.Geek-DiligentBees-Footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  height: 80%;
+}
+.Geek-DiligentBees-Footer > div .top {
+  display: flex;
+  align-items: center;
+}
+.Geek-DiligentBees-Footer > div .top .logo {
+  width: 4vw;
+  height: auto;
+}
+.Geek-DiligentBees-Footer > div .top .font {
+  margin-left: 1vw;
+}
+.Geek-DiligentBees-Footer > div .top .font .cha {
+  font-weight: bold;
+  color: white;
+  font-size: 1vw;
+}
+.Geek-DiligentBees-Footer > div .top .font .cha span {
+  color: #edd924;
+}
+.Geek-DiligentBees-Footer > div .top .font .lines {
+  margin-top: 1px;
+  display: flex;
+}
+.Geek-DiligentBees-Footer > div .top .font .lines .line {
+  width: 100%;
+  height: 1.5px;
+  background-color: #7ab5fe;
+}
+.Geek-DiligentBees-Footer > div .top .font .lines .circle {
+  margin-right: 2px;
+  width: 1.5px;
+  height: 1.5px;
+  background-color: white;
+}
+.Geek-DiligentBees-Footer > div .center {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Geek-DiligentBees-Footer > div .center .item > div {
+  font-size: 1.8vw;
+  margin-bottom: 4vw;
+}
+.Geek-DiligentBees-Footer > div .center .item ul li {
+  cursor: pointer;
+  margin: 0.8vw 0;
+  font-weight: lighter;
+  font-size: 1.1vw;
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.2s;
+}
+.Geek-DiligentBees-Footer > div .center .item ul li:hover {
+  color: white;
+}
+.Geek-DiligentBees-Footer > div .bottom .icons img {
+  cursor: pointer;
+  height: 3vw;
+  margin-right: 2vw;
+}
+.Geek-DiligentBees-Footer > div .bottom .href {
+  display: flex;
+  align-items: flex-end;
+}
+.Geek-DiligentBees-Footer > div .bottom .href .cha {
+  margin-top: 1vw;
+  display: flex;
+  font-weight: lighter;
+  font-size: 1.1vw;
+  color: rgba(255, 255, 255, 0.8);
+}
+.Geek-DiligentBees-Footer > div .bottom .href .cha ul {
+  display: flex;
+}
+.Geek-DiligentBees-Footer > div .bottom .href .cha ul li {
+  cursor: pointer;
+  margin: 0 0.2vw;
+  transition: 0.2s;
+}
+.Geek-DiligentBees-Footer > div .bottom .href .cha ul li:hover {
+  color: white;
+}
+.Geek-DiligentBees-Footer > div .bottom .href .line {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 0.1vw;
+  margin: 0 1vw;
+}
+.Geek-DiligentBees-Footer > div .bottom .href .circles {
+  display: flex;
+}
+.Geek-DiligentBees-Footer > div .bottom .href .circles li {
+  width: 1vw;
+  height: 1vw;
+  margin: 0 0.5vw;
+  border-radius: 100%;
+  background-color: #ffe10b;
+}
